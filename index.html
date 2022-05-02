@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News App</title>
+    <link rel="stylesheet" href="styles/navbar.css">
+    <style>
+      
+        #results
+        {
+         display: flex;
+         flex-direction: column;
+         gap: 50px;
+         
+         
+        }
+      .news
+      {
+        display: flex;
+        border: 1px solid black;
+      }
+      img{
+        width: 40%;
+      }
+    </style>
+  </head>
+  
+  <body>
+    <!-- Give Navbar with id "navbar"  -->
+    <!-- Navbar will have input with id search_input and a link to home page i.e. index.html -->
+    <!-- Sidebar will have id "sidebar"  -->
+    <!-- Give link to top headlines of countries in sidebar with id as their country codes 
+    india :- in
+    china :- ch
+    usa :- us
+    uk : uk
+    Newzeland :- nz -->
+
+    <!-- Append results inside div with id "results"  -->
+    <!-- News divs will have class "news"  -->
+     <div id="navbar">
+      
+     </div>
+     <div id="sidebar">
+       <h3 id="in">India</h3>
+       <h3 id="ch">China</h3>
+       <h3 id="us">Usa</h3>
+       <h3 id="uk">United Kingdom</h3>
+       <h3 id="nz"> New Zealand</h3>
+     </div>
+    <div id="results">
+
+    </div>
+  </body>
+</html>
+<script src="./scripts/index.js" type="module"></script>
